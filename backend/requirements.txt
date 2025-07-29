@@ -1,0 +1,6 @@
+flask
+flask-cors
+PyMuPDF
+requests 
+httpx
+python-dotenv
