@@ -39,7 +39,7 @@ async def save_chunks(chunks, tag, version, filename):
         json.dump(_store, f, indent=2)
 
 
-async def query_chunks(query, top_k=3):
+async def query_chunks(query, top_k=10):
     """
     Compute cosine similarity between query embedding and stored embeddings.
     Skip any entries without 'embedding'.
